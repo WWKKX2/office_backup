@@ -1,0 +1,9 @@
+# 运行本项目所需依赖
+#
+# 主引擎（office_handle_scanner.py）是纯 ctypes 实现，标准库即可运行，
+# 不需要安装任何第三方包。
+#
+# pywin32 仅在启用 COM 兜底扫描源（config.json 的 scan_sources 含 "com"）时需要。
+# 不装也能正常跑，COM 源会被自动跳过。
+#
+# pip install pywin32

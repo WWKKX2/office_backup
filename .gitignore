@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时产物（不要提交）
+backup.log
+backup.log.*
+backups/
+config.json
+
+# 工具 / 编辑器
+.workbuddy-ai/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本地测试
+.office_backup_selftest/

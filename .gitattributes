@@ -1,0 +1,13 @@
+# 统一换行符，避免 Windows / macOS 协作时出现整文件 diff
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.bat text eol=crlf
+
+# start_silent.vbs 必须是 UTF-16 LE（带 BOM），不能做换行转换
+*.vbs binary

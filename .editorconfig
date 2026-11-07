@@ -1,0 +1,24 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{json,yml,yaml,md}]
+indent_size = 2
+
+[*.{py,json,yml,yaml,md}]
+end_of_line = lf
+
+[*.bat]
+end_of_line = crlf
+
+# .vbs 必须保持 UTF-16 LE + BOM，交给专门的编辑器处理
+[*.vbs]
+charset = unset
+end_of_line = crlf
+trim_trailing_whitespace = false

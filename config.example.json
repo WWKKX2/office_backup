@@ -1,0 +1,22 @@
+{
+  "backup_root": "backups",
+  "interval_seconds": 30,
+  "min_seconds_between_backups": 30,
+  "max_versions_per_file": 20,
+  "scan_sources": ["handle", "com"],
+  "office_apps": {
+    "word": true,
+    "excel": true,
+    "powerpoint": true,
+    "wps": true
+  },
+  "file_extensions": [
+    ".doc", ".docx", ".docm", ".dot", ".dotx",
+    ".xls", ".xlsx", ".xlsm", ".xlsb", ".xlt", ".xltx",
+    ".ppt", ".pptx", ".pptm", ".pot", ".potx",
+    ".csv", ".rtf", ".odt", ".ods", ".odp"
+  ],
+  "log_level": "INFO",
+  "log_max_bytes": 1048576,
+  "log_backup_count": 3
+}
